@@ -1,0 +1,24 @@
+/******************************************************************************
+
+                              Online C++ Compiler.
+               Code, Compile, Run and Debug C++ program online.
+Write your code in this editor and press "Run" button to compile and execute it.
+
+*******************************************************************************/
+
+#include <iostream>
+ 
+int main ()
+{
+    float funt, kg, result;
+    kg = 0.453;
+    printf("Введите вес в фунтах: ");
+    scanf("%f", &funt);
+    if (funt != 0){
+        result = funt * kg;
+        printf("%f", funt);
+        printf(" фунта - ");
+        printf("%f", result);
+        printf(" кг\n");
+    }
+}
