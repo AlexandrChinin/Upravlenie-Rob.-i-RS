@@ -12,13 +12,13 @@ int main ()
 {
     float funt, kg, result;
     kg = 0.453;
-    printf("Введите вес в фунтах: ");
+    printf("Введите вес в фунтах:");
     scanf("%f", &funt);
     if (funt != 0){
-        result = funt * kg;
-        printf("%f", funt);
-        printf(" фунта - ");
-        printf("%f", result);
-        printf(" кг\n");
+      result = funt * kg;
+      printf("%f", funt);
+      printf(" фунта - ");
+      printf("%f", result);
+      printf(" кг\n");
     }
 }
